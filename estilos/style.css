@@ -34,7 +34,7 @@ section#telefone{
 iframe#tela{
     position: relative;
     top: 80px; left: 22px;
-    width: 268px;
+    width: 267px;
     height: 471px;
 }
 
@@ -52,5 +52,8 @@ section#redes-sociais > a > img{
 }
 
 section#redes-sociais img:hover{
-    border: 2px solid white;
+    border: 2px solid rgba(255, 255, 255, 0.623);
+    transform: translate(-1px, -1px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+    transition: transform 0.5s, border 0.4s;
 }
